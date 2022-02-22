@@ -1,0 +1,1674 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{fullpage}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "Curlz MT"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 3cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\sumin}{\sum_{i=1}^{n}}
+{\sum_{i=1}^{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumjn}{\sum_{j=1}^{n}}
+{\sum_{j=1}^{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumim}{\sum_{i=1}^{m}}
+{\sum_{i=1}^{m}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumjm}{\sum_{j=1}^{m}}
+{\sum_{j=1}^{m}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumik}{\sum_{i=1}^{k}}
+{\sum_{i=1}^{k}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumjk}{\sum_{j=1}^{k}}
+{\sum_{j=1}^{k}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumkn}{\sum_{k=1}^{n}}
+{\sum_{k=1}^{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumnk}{\sum_{n=1}^{k}}
+{\sum_{n=1}^{k}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumkm}{\sum_{k=1}^{m}}
+{\sum_{k=1}^{m}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\ser}[3]{#1_{1}#2#1_{2}#2#1_{2}#2#1_{3}#2....#2#1_{#3}}
+{#1_{1}#2#1_{2}#2#1_{2}#2#1_{3}#2....#2#1_{#3}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\vn}{v_{1},v_{2},...v_{n}}
+{v_{1},v_{2},...v_{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\vm}{v_{1},v_{2},...v_{m}}
+{v_{1},v_{2},...v_{m}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\un}{u_{1},u_{2},...u_{n}}
+{u_{1},u_{2},...u_{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\um}{u_{1},u_{2},...u_{m}}
+{u_{1},u_{2},...u_{m}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\vk}{v_{1},v_{2},...v_{k}}
+{v_{1},v_{2},...v_{k}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\vecmul}[6]{\left[\begin{matrix}#1\\
+ #2\\
+ #3 
+\end{matrix}\right]\times\left[\begin{matrix}#4\\
+ #5\\
+ #6 
+\end{matrix}\right]=\left[\begin{matrix}\left(#2\right)\cdot\left(#6\right)-\left(#3\right)\cdot\left(#5\right)\\
+ \left(#3\right)\cdot\left(#4\right)-\left(#1\right)\cdot\left(#6\right)\\
+ \left(#1\right)\cdot\left(#5\right)-\left(#2\right)\cdot\left(#4\right) 
+\end{matrix}\right]}
+{\left[\begin{matrix}#1\\
+#2\\
+#3
+\end{matrix}\right]\times\left[\begin{matrix}#4\\
+#5\\
+#6
+\end{matrix}\right]=\left[\begin{matrix}\left(#2\right)\cdot\left(#6\right)-\left(#3\right)\cdot\left(#5\right)\\
+\left(#3\right)\cdot\left(#4\right)-\left(#1\right)\cdot\left(#6\right)\\
+\left(#1\right)\cdot\left(#5\right)-\left(#2\right)\cdot\left(#4\right)
+\end{matrix}\right]}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\lim}[1]{\lim_{n\rightarrow\infty}\left(#1\right)}
+{\lim_{n\rightarrow\infty}\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\rank}{\text{Rank}}
+{\text{Rank}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\im}{\text{Im}}
+{\text{Im}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\sp}{\text{Span}}
+{\text{Span}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\fancyF}{\mathscr{F}}
+{\mathscr{F}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\fancyB}{\mathscr{B}}
+{\mathscr{B}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\baseA}{\mathcal{A}}
+{\mathcal{A}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\baseB}{\mathcal{B}}
+{\mathcal{B}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\baseC}{\mathcal{C}}
+{\mathcal{C}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\FF}{\mathbb{F}}
+{\mathbb{F}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\CC}{\mathbb{C}}
+{\mathbb{C}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\RR}{\mathbb{R}}
+{\mathbb{R}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\QQ}{\mathbb{Q}}
+{\mathbb{Q}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\NN}{\mathbb{N}}
+{\mathbb{N}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\ZZ}{\mathbb{Z}}
+{\mathbb{Z}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\kaliCupDot}{\mathbin{\cupdot}}
+{\mathbin{\dot{\cup}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\kaliBigCupDot}{\mathbin{\bigcupdot}}
+{\mathbin{\dot{\bigcup}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\PP}{\mathbb{P}}
+{\mathbb{P}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\EE}{\mathbb{E}}
+{\mathbb{E}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\nab}{\overline{\nabla}}
+{\overline{\nabla}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\supp}{\text{Supp}}
+{\text{Supp}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\geo}{\text{Geo}}
+{\text{Geo}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\bin}{\text{Bin}}
+{\text{Bin}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\ber}{\text{Ber}}
+{\text{Ber}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\poi}{\text{Poi}}
+{\text{Poi}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\exp}{\text{Exp}}
+{\text{Exp}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\cov}{\text{Cov}}
+{\text{Cov}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\var}{\text{Var}}
+{\text{Var}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\sinc}{\text{sinc}}
+{\text{sinc}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\ra}{\text{\ensuremath{\rightarrow}}}
+{\text{\ensuremath{\rightarrow}}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\la}{\text{\ensuremath{\leftarrow}}}
+{\text{\ensuremath{\leftarrow}}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\renewcommand{\iff}{\text{\ensuremath{\Leftrightarrow}}}
+{\text{\Leftrightarrow}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\E}{\text{\ensuremath{\exists}}}
+{\text{\ensuremath{\exists}}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\RA}{\text{\ensuremath{\Rightarrow}}}
+{\text{\ensuremath{\Rightarrow}}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\LA}{\text{\ensuremath{\Leftarrow}}}
+{\text{\ensuremath{\Leftarrow}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\li}{\text{\ensuremath{\langle}}}
+{\text{\langle}}
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\newcommand{\ri}{\rangle}
+{\text{\rangle}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\vec}{\begin{bmatrix}\end{bmatrix}}
+{\begin{bmatrix}\end{bmatrix}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\T}{^{\intercal}}
+{^{\intercal}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\xor}{\oplus}
+{\oplus}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\norm}{\Vert}
+{\Vert}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\2}{^{2}}
+{^{2}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\and}{\wedge}
+{\wedge}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Title
+76558 | CBIO | Hackathon
+\end_layout
+
+\begin_layout Author
+
+\size small
+Guy Lutsker 207029448, Nivi Shenker 207227687, Eran Eben Chaime 308240597,
+ Or Amar 311166169
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Abstract
+\end_layout
+
+\begin_layout Standard
+DNA methylation plays a significant role in many important biological processes.
+ In general, methylation patterns between neighboring sites present co-methylati
+on.
+ As the distance between sites grows, co-methylation decreases.
+ Methylation patterns change across different tissues.
+ Additionally, cancerous processes cause aberrant methylation which leads
+ to different methylation patterns within healthy and cancerous tissue.
+ In our work, we examined pairs of close methylation sites (less then 100nt
+ apart).
+ Initially, we compared co-methylation of close sites in healthy and cancerous
+ tissue.
+ Subsequently, we compared co-methylation of close sites across different
+ tissues.
+ Our results suggest that the general trend in which co-methylation decreases
+ as distance grows, holds for both healthy and sick tissues and across different
+ tissues.
+ In other words, even though in both cases methylation patterns are different,
+ co-methylation of close sites is high and decreases as the distance between
+ two sites grows.
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+DNA methylation is an epigenetic mechanism in which a methyl group is added
+ to cytosine.
+ This mechanism causes silencing of gene expression and has an important
+ role in multiple biological processes such as gene transcription regulation
+\begin_inset Formula $^{1}$
+\end_inset
+
+, aging
+\begin_inset Formula $^{2,3}$
+\end_inset
+
+, differentiation of stem cells
+\begin_inset Formula $^{4,5}$
+\end_inset
+
+, genomic imprinting
+\begin_inset Formula $^{6}$
+\end_inset
+
+ and more.
+ It has been shown that the patterns of DNA methylation are non-random,
+ well regulated and tissue-specific
+\begin_inset Formula $^{7}$
+\end_inset
+
+.
+ These conclusions are consistent with the biological importance of DNA
+ methylation.
+ Given this notion, it is reasonable to think that the methylation status
+ of close CpG sites is co-dependent.
+ Indeed, several studies have demonstrated that there is a correlation in
+ methylation status between neighboring CpG sites in healthy tissues
+\begin_inset Formula $^{8}$
+\end_inset
+
+.
+ In cancerous tissues, a different scenario holds in the sense of tissue
+ methylation sites status.
+ On one hand, during cancerous processes silencing of tumor suppressor genes
+ occurs by methylating their promoter regions, where on the other hand,
+ hypomethylation has been recognized as a cause of oncogenesis
+\begin_inset Formula $^{9}$
+\end_inset
+
+.
+ This relationship raises a question concerning the co-methylation patterns
+ in cancerous tissues.
+ It has been shown that the methylation status in cancerous tissues was
+ aberrant, at least for CpG islands
+\begin_inset Formula $^{10}$
+\end_inset
+
+, when compared to healthy tissue.
+ In our work, we wish to delve into the data and get a better understanding
+ of the phenomena of co-methylation between neighboring sites.
+ Moreover, we aim to see if co-methylation holds in cancerous tissues.
+ Additionally, it has been shown that different tissues exhibit different
+ methylation patterns
+\begin_inset Formula $^{11}$
+\end_inset
+
+.
+ Given this notion, we wish to investigate whether co-methylation of neighboring
+ sites show to the same trend between different tissues.
+\end_layout
+
+\begin_layout Section
+Data
+\end_layout
+
+\begin_layout Subsection
+Data Description
+\end_layout
+
+\begin_layout Standard
+Initially, we used data of breast tissue, from the breast cancer (BRCA)
+ data base, extracted from The Cancer Genome Atlas (TCGA)
+\begin_inset Formula $^{12}$
+\end_inset
+
+.
+ TCGA consist of thousands of cancerous and healthy samples using Illumina
+ 450K array.
+ Illumina is a methylation profiling platform providing quantitative methylation
+ measurement at the single-CpG–site level.
+ The 450K array covers only about 1.5% of CpGs in the human genome.
+ Our data consists of three data-bases of methylation patterns of healthy
+ tissue, primary tumor and metastatic tumor.
+ Subsequently we used additional data from TCGA of eleven healthy tissues.
+\end_layout
+
+\begin_layout Subsection
+Pre-processing
+\end_layout
+
+\begin_layout Standard
+The first issue we encountered is the missing data in the files - many features
+ (methylation sites) had missing entries.
+ To handle this issue we chose to remove features with low percentage of
+ data (mostly missing values) and to fill the remaining features with an
+ imputation method.
+ To find the right threshold to remove entire features, we plotted the percentag
+e of missing values over the number of features (~450K methylation sites,
+ as mentioned) to make an educated decision:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted5.png
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Example of missing data percentage in BRCA healthy file
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+As we can see, the features with most missing values do not take up much
+ of the data itself and so we can intelligently remove some of the data
+ and still keep most of it.
+ In our work, we chose to remove features with more than 10% missing entries,
+ which allowed us to retain 93% of the data.
+ After removing those features, the next step we preformed was filling the
+ remaining missing values.
+ There are many ways around this problem, and in our project we chose to
+ replace the missing values with KNN imputation, which has been shown to
+ provide generally effective results
+\begin_inset Formula $^{13}$
+\end_inset
+
+.
+ KNN imputation is not robust to features with a high percentage of missing
+ values, but because we removed highly sparsed features, KNN imputation
+ provides a good fit.
+ Moreover, we assume that samples which are close in high dimensional space
+ (~ 450K) are similar, and so we can use a weighted sum of the 3 most nearest
+ neighbors to fill the missing values.
+ We chose 
+\begin_inset Formula $k=3$
+\end_inset
+
+ for the imputation due to the spacious nature of our data.
+\end_layout
+
+\begin_layout Section
+Co-methylation - Distance Analysis
+\end_layout
+
+\begin_layout Subsection
+Healthy Tissue Analysis
+\end_layout
+
+\begin_layout Standard
+In this section, we wanted to analyze healthy tissue from the BRCA data
+ base.
+ We aimed to find the relation between the physical distance of methylation
+ sites and their methylation correlation.
+ In order to do so, we used data from USCS
+\series bold
+
+\begin_inset Formula $^{14}$
+\end_inset
+
+
+\series default
+ containing the methylation sites positions.
+ We partitioned the data by chromosomes, sorted by the relative position
+ in that chromosome and created a new table of all the sites pairs with
+ a distance of less then 100nt.
+ Previous studies have shown that co-methylation between neighboring sites
+ exists within sites that are no distant than 50nt apart
+\begin_inset Formula $^{8,15}$
+\end_inset
+
+, and therefore we chose to use this cutoff.
+ The next step was to calculate methylation correlation between all sites
+ pairs.
+ In this analysis we assumed that the relationship of methylation between
+ sites is linear and therefore we chose to use Pearson correlation coefficient.
+ We graphed the co-methylation per distance to visualized whether the aforementi
+oned relationship holds in our data: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted10.png
+	scale 28
+	rotateOrigin leftBaseline
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Healthy BRCA Tissue Analysis - (A) Histogram of correlations.
+ This graph describes the correlation distribution of close methylation
+ site pairs (distance smaller than 100nt).
+ We can infer that close sites have mostly high correlation as expected.
+ (B) 2D density histogram of correlation per distance.
+ Here we present the number of entries into the same correlation region
+ as a function of distance (e.g - the left upper cell shows that ~2000 sites
+ pairs were in a distance of 2-10nt and with correlation 0.75-1).
+ Specifically, for every distance range presented in the graph, the highest
+ number of entries is in the highest region of correlation.
+ (C) Normalized correlation (y axis) per distance (x axis) with regression
+ line, 
+\series bold
+
+\begin_inset Formula $y=-9.9\cdot10^{-4}\cdot x$
+\end_inset
+
+.
+ 
+\series default
+In this graph we mapped the average correlation for each distance in range
+ of 2-100, and normalized the correlations with relation to the number of
+ pairs in each distance.
+ This results is consistent with previous studies
+\series bold
+
+\begin_inset Formula $^{16,17,18}$
+\end_inset
+
+
+\series default
+, who claimed co-methylation is high between neighboring sites and decreases
+ as distance grows.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ To see whether our results are significant, we used a permutation test.
+ The null hypothesis is that physical distance and co-methylation are independen
+t.
+ In our test we chose to use the statistic 
+\begin_inset Formula $s=mean(f(d))\ s.t\ (d<N)$
+\end_inset
+
+ where 
+\begin_inset Formula $d$
+\end_inset
+
+ is the distance value, 
+\begin_inset Formula $f(d)$
+\end_inset
+
+ is the correlation between pair of methylation sites and 
+\begin_inset Formula $N=50$
+\end_inset
+
+ is the distance threshold given in nt.
+ We chose 
+\begin_inset Formula $N=50$
+\end_inset
+
+ because several papers have demonstrated that two methylation sites which
+ are less than 50nt apart, are likely to be co-methylated
+\series bold
+
+\begin_inset Formula $^{8,15}$
+\end_inset
+
+
+\series default
+.
+ The p-value is calculated by 
+\begin_inset Formula $p_{val}=\frac{\#(s_{i}\ge s)}{R}$
+\end_inset
+
+ where 
+\begin_inset Formula $R$
+\end_inset
+
+ is the number of permutations and 
+\begin_inset Formula $s_{i}$
+\end_inset
+
+ is the statistic for the 
+\begin_inset Formula $i$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+'th
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ run.
+ In our test, 
+\series bold
+
+\begin_inset Formula $\#(s_{i}\ge s)=0$
+\end_inset
+
+ 
+\series default
+which results in 
+\begin_inset Formula $p_{val}<\frac{1}{100000}$
+\end_inset
+
+.
+ Our results suggest that we can reject the null hypothesis, meaning that
+ in sites closer than 50nt there exists a dependency between physical distance
+ and co-methylation.
+\end_layout
+
+\begin_layout Subsection
+Comparing Healthy Tissues to Cancer Tissues
+\end_layout
+
+\begin_layout Standard
+Next we wanted to analyze whether the patterns we saw in healthy tissues
+ holds in cancerous tissues as well.
+ It is known from previous studies
+\series bold
+ 
+\series default
+that a property of cancer is that it may cause changes in methylation patterns
+\series bold
+
+\begin_inset Formula $^{19,20}$
+\end_inset
+
+
+\series default
+.
+ To visualize difference in methylation between healthy and cancerous tissues
+ in our data, we ran a UMAP analysis.
+ UMAP is non-linear dimensional reduction method which is capable of preserving
+ both global & local structures in data.
+ The result of this analysis are shown in Fig.3.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted12.png
+	lyxscale 40
+	scale 15
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Methylation Patterns Comparison Between Healthy And Cancerous Tissues -
+ using UMAP analysis to distinct between samples from healthy tissues (green)
+ and samples from cancerous tissues (blue and red)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Indeed, the data plotted by this dimensional reduction method conforms with
+ previous studies, as we can observe that there is a good separation between
+ healthy and cancerous tissues.
+ Due to this notion, one might expect to find that cancer produces different
+ methylation pattern also in neighboring methylation sites.
+ However, our analysis shows that this thought is incorrect.
+ In our work, we ran the same analysis mentioned in section 4.1 for both
+ primary tumor tissues and metastatic tissues.
+ The results are shown in Fig.
+ 4.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted13.png
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Cancerous BRCA Tissue Analysis - (A) Primary tumor analysis, normalized
+ correlation per distance with regression line, regression function: 
+\series bold
+
+\begin_inset Formula $y=-1.58\cdot10^{-3}\cdot x$
+\end_inset
+
+
+\series default
+.
+ (B) Metastatic tumor analysis, normalized correlation per distance with
+ regression line, regression function: 
+\series bold
+
+\begin_inset Formula $y=-1.41\cdot10^{-3}\cdot x$
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+As we can see, we get similar patterns for both primary tumor tissues and
+ metastatic tissues in the histogram, density and correlation per distance
+ analysis.
+ Moreover we tried to reject the null hypothesis using the Kruskal-Wallis
+ test (a non-parametric statistical test for multiple comparisons), which
+ resulted in a 
+\begin_inset Formula $p_{value}=6.6\times10^{-24}$
+\end_inset
+
+ .
+ Our results show a significant difference between the tissues so we can
+ reject the null hypothesis.
+ To visualize the differences between healthy and cancerous states of the
+ tissue, we plotted the tissue slopes under one graph :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted13.png
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Healthy and cancerous states of the BRCA tissue - each slope represents
+ a different state of the tissue
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+As we can see, the plot suggests that although we see a different slope
+ for each state, the general trend is that co-methylation decreases as physical
+ distance grows.
+\end_layout
+
+\begin_layout Section
+Highly Co-Methylated Sites Across Different Tissues
+\end_layout
+
+\begin_layout Standard
+Next, we wanted to analyze if sites that were highly co-methylated in one
+ tissue remain highly co-methylated across other tissues.
+ It has been shown that different tissues produce distinctive methylation
+ patterns
+\begin_inset Formula $^{21}$
+\end_inset
+
+ , however, we wanted to examine if highly co-methylated sites preserve
+ over different tissues despite that notion.
+ Prior to this step, we chose to visualize if different tissues indeed exhibit
+ different methylation signal.
+ Note that we ran the same pre-processing steps described under section
+ 3.2 before approaching this question.
+\end_layout
+
+\begin_layout Subsection
+Tissue Separation Using UMAP 
+\end_layout
+
+\begin_layout Standard
+To visualize our data we chose to use UMAP, the same dimensionality reduction
+ technique as before:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted4.png
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\size footnotesize
+UMAP of Healthy Tissues Combined - data separation of 11 healthy tissues
+ from TCGA data base
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ UMAP with its local and global manifold preserving capabilities was able
+ to separate the tissues almost perfectly.
+ In addition, it has also been able to capture the similarity of tissues,
+ for example we can see that both 
+\begin_inset Quotes eld
+\end_inset
+
+Kidney renal paplilary cells
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Kidney renal clear cells
+\begin_inset Quotes erd
+\end_inset
+
+ are 2 clusters which are adjacent.
+ This visualization is also available in 3D: https://www.cs.huji.ac.il/~guy_lutsker/
+UMAP_Plot_Healthy.html 
+\end_layout
+
+\begin_layout Subsection
+Statistical Analysis
+\end_layout
+
+\begin_layout Standard
+After seeing that these tissues indeed have a differentiating signal, we
+ conducted a numerical statistical test.
+ The test we chose once again was Kruskal-Wallis test to see whether it
+ is capable of finding that these samples come from different groups.
+ Unsurprisingly, the results show 
+\begin_inset Formula $p_{value}=1.1\times10^{-171}$
+\end_inset
+
+, which means that we can say with statistical significance that these indeed
+ exhibit an unsupervised differentiating signal.
+ In addition we wanted to calculate the distance to correlation analysis
+ for all tissues, and got the following plots:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted14.png
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Normalized correlation (y axis) per distance (x axis) with regression lines
+ of 11 healthy tissues from TCGA data base
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Once again, even though we found that the tissues are distinct in a statisticall
+y significant way, the general trend appears again - co-methylation decreases
+ as physical distance grows.
+ To have a better visualization of this result we can see Fig.8:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted15.png
+	scale 20
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Co-methylation to physical distance relation comparison - overlay of 11
+ healthy tissues from TCGA data base 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Future Work
+\end_layout
+
+\begin_layout Standard
+This paper covered just the tip of the iceberg, and there is much more work
+ to be done in this field.
+ To begin with, as mentioned, our data is derived from the TCGA data base
+ which uses Illumina 450K array.
+ This data covers only about 1.5% of CpGs in the human genome which limits
+ our data analysis capabilities.
+ Using data that covers a larger percentage of the CpGs in the human genome
+ could help us achieve higher quality results, as well as make new discoveries
+ not present in our data.
+ Additionally, we can extend the 100nt limit in order to see different behaviors
+ of co-methylation.
+ We expect to find that the relationship between physical distance and co-methyl
+ation will continue to be inverse, until a certain threshold in which we
+ expect to see a random co-methylation pattern.
+ In addition, if we extend the distance limit (in nt) to be wide enough,
+ we might be able to discover new regulatory sites if we observe a high
+ positive or negative correlation between two sites.
+ Moreover, our analysis is based on a 2D correlation which means that we
+ are only looking at the correlation of two sites at a time.
+ This analysis can easily be expanded to 
+\begin_inset Formula $n$
+\end_inset
+
+ dimensions, which can lead us to discover more complex structures of co-methyla
+tion (
+\begin_inset Formula $n$
+\end_inset
+
+ dimensional) in the data.
+ 
+\end_layout
+
+\begin_layout Section
+References
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Chan, M.
+ F., Liang, G., & Jones, P.
+ A.
+ (2000).
+ Relationship between transcription and DNA methylation.
+ Current topics in microbiology and immunology, 249, 75-86.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Zhang, Z., Deng, C., Lu, Q., & Richardson, B.
+ (2002).
+ Age-dependent DNA methylation changes in the ITGAL (CD11a) promoter.
+ Mechanisms of ageing and development, 123(9), 1257-1268.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Ahuja, N., & Issa, J.
+ P.
+ (2000).
+ Aging, methylation and cancer.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Li, E.
+ (2002).
+ Chromatin modification and epigenetic reprogramming in mammalian development.
+ Nature Reviews Genetics, 3(9), 662-673.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Reik, W., Dean, W., & Walter, J.
+ (2001).
+ Epigenetic reprogramming in mammalian development.
+ Science, 293(5532), 1089-1093.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Reik, W., & Walter, J.
+ (1998).
+ Imprinting mechanisms in mammals.
+ Current opinion in genetics & development, 8(2), 154-164.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Chen, Z.
+ X., & Riggs, A.
+ D.
+ (2011).
+ DNA methylation and demethylation in mammals.
+ Journal of Biological Chemistry, 286(21), 18347-18353.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Affinito, O., Palumbo, D., Fierro, A., Cuomo, M., De Riso, G., Monticelli, A.,
+ ...
+ & Cocozza, S.
+ (2020).
+ Nucleotide distance influences co-methylation between nearby CpG sites.
+ Genomics, 112(1), 144-150.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Das, P.
+ M., & Singal, R.
+ (2004).
+ DNA methylation and cancer.
+ Journal of clinical oncology, 22(22), 4632-4642.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Costello, J.
+ F., Frühwald, M.
+ C., Smiraglia, D.
+ J., Rush, L.
+ J., Robertson, G.
+ P., Gao, X., ...
+ & Plass, C.
+ (2000).
+ Aberrant CpG-island methylation has non-random and tumour-type–specific
+ patterns.
+ Nature genetics, 24(2), 132-138.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Lokk, K., Modhukur, V., Rajashekar, B., Märtens, K., Mägi, R., Kolde, R., ...
+ & Tõnisson, N.
+ (2014).
+ DNA methylome profiling of human tissues identifies global and tissue-specific
+ methylation patterns.
+ Genome biology, 15(4), 1-14.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+The results presented in this work are in whole or part based upon data
+ generated by the TCGA Research Network: https://www.cancer.gov/tcga.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Beretta, L., & Santaniello, A.
+ (2016).
+ Nearest neighbor imputation algorithms: a critical evaluation.
+ BMC medical informatics and decision making, 16 Suppl 3(Suppl 3), 74.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Navarro Gonzalez J, Zweig AS, Speir ML, Schmelter D, Rosenbloom KR, Raney
+ BJ, Powell CC, Nassar LR, Maulding ND, Lee CM, Lee BT, Hinrichs AS, Fyfe
+ AC, Fernandes JD, Diekhans M, Clawson H, Casper J, Benet-Pagès A, Barber
+ GP, Haussler D, Kuhn RM, Haeussler M, Kent WJ.
+ The UCSC Genome Browser database: 2021 update.
+ Nucleic Acids Res.
+ 2021 Jan 8;49(D1):D1046-D1057.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Witzmann, S.
+ R., Turner, J.
+ D., Mériaux, S.
+ B., Meijer, O.
+ C., & Muller, C.
+ P.
+ (2012).
+ Epigenetic regulation of the glucocorticoid receptor promoter 17 in adult
+ rats.
+ Epigenetics, 7(11), 1290-1301.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Sun, L., Namboodiri, S., Chen, E., & Sun, S.
+ (2019).
+ Preliminary Analysis of Within-Sample Co-methylation Patterns in Normal
+ and Cancerous Breast Samples.
+ Cancer informatics, 18, 1176935119880516.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Li, Y., Zhu, J., Tian, G., Li, N., Li, Q., Ye, M., ...
+ & Zhang, X.
+ (2010).
+ The DNA methylome of human peripheral blood mononuclear cells.
+ PLoS biol, 8(11), e1000533.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Eckhardt, F., Lewin, J., Cortese, R., Rakyan, V.
+ K., Attwood, J., Burger, M., ...
+ & Beck, S.
+ (2006).
+ DNA methylation profiling of human chromosomes 6, 20 and 22.
+ Nature genetics, 38(12), 1378-1385.
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Ghavifekr Fakhr, M., Farshdousti Hagh, M., Shanehbandi, D., & Baradaran, B.
+ (2013).
+ DNA methylation pattern as important epigenetic criterion in cancer.
+ Genetics research international, 2013, 317569
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Baylin, S.
+ B., & Jones, P.
+ A.
+ (2016).
+ Epigenetic Determinants of Cancer.
+ Cold Spring Harbor perspectives in biology, 8(9), a019505
+\end_layout
+
+\begin_layout Enumerate
+
+\size small
+Lokk, K., Modhukur, V., Rajashekar, B., Märtens, K., Mägi, R., Kolde, R., ...
+ & Tõnisson, N.
+ (2014).
+ DNA methylome profiling of human tissues identifies global and tissue-specific
+ methylation patterns.
+ Genome biology, 15(4), 1-14.
+\end_layout
+
+\end_body
+\end_document
